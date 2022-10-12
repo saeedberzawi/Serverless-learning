@@ -1,6 +1,6 @@
 // http://localhost:8888/.netlify/functions/3-web
 
-const data = require("../utils/data");
+const data = require("../utils/data.json");
 
 exports.handler = async (event, context) => {
   return {
